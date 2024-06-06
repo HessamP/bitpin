@@ -1,0 +1,5 @@
+.env
+locust.py
+venv/
+__pycache__
+.idea/
