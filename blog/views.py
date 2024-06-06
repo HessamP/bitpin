@@ -11,7 +11,6 @@ from rest_framework.permissions import IsAuthenticated
 from django.utils.decorators import method_decorator
 from django.views.decorators.cache import cache_page
 from django.utils.cache import get_cache_key
-import numpy as np
 
 
 class PostListPagination(PageNumberPagination):
